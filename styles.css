@@ -67,7 +67,7 @@ body {
     width: 600px;
     height: 400px;
     background: #000;
-    border: 4px solid #00ff00;
+    border: 4px solid #437BBB;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@ body {
 #loading-screen .title {
     font-size: 48px;
     font-weight: bold;
-    color: #00ff00;
+    color: #437BBB;
     margin-bottom: 40px;
     letter-spacing: 4px;
     animation: titleGlow 2s ease-in-out infinite alternate; /* Tambahkan ini */
@@ -93,16 +93,16 @@ body {
 /* Tambahkan keyframe ini */
 @keyframes titleGlow {
     from {
-        text-shadow: 0 0 10px #00ff00;
+        text-shadow: 0 0 10px #437BBB;
     }
     to {
-        text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00;
+        text-shadow: 0 0 20px #437BBB, 0 0 30px #437BBB;
     }
 }
 
 #loading-screen .loading-text {
     font-size: 24px;
-    color: #00ff00;
+    color: #437BBB;
     margin-bottom: 30px;
     text-align: left;
     padding-left: 20px;
@@ -114,7 +114,7 @@ body {
     width: 80%;
     height: 30px;
     background: #333;
-    border: 2px solid #00ff00;
+    border: 2px solid #437BBB;
     margin: 0 auto 30px;
     position: relative;
     border-radius: 5px;
@@ -123,7 +123,7 @@ body {
 
 .progress-fill {
     height: 100%;
-    background: #00ff00;
+    background: #437BBB;
     width: 38%;
     transition: width 0.3s ease;
     position: relative;
@@ -248,7 +248,7 @@ body {
 .gameboy-screen {
     width: 100%;
     height: 200px;
-    background: #2d5016;
+    background: #437BBB;
     border: 8px solid #1a1a1a;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -316,15 +316,15 @@ body {
 }
 
 .birthday-title {
-    color: #9bbc0f;
+    color: #f7f7f7;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
-    text-shadow: 0 0 10px #9bbc0f;
+    text-shadow: 0 0 10px #437BBB;
 }
 
 .start-text {
-    color: #ffff00;
+    color: #ffffff;
     font-size: 16px;
     margin-bottom: 20px;
 }
@@ -598,7 +598,7 @@ body {
 .page-screen {
     width: 100%;
     height: 480px;
-    background: #2d5016;
+    background: #437BBB;
     border: 4px solid #1a1a1a;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -607,7 +607,7 @@ body {
 
 .page-header {
     background: #1a1a1a;
-    color: #9bbc0f;
+    color: #437BBB;
     padding: 10px;
     text-align: center;
     font-size: 18px;
@@ -651,8 +651,8 @@ body {
     height: calc(100% - 80px); /* Adjusted to match other pages */
     overflow-y: auto;
     padding: 15px;
-    background: #2d5016;
-    color: #9bbc0f;
+    background: #437BBB;
+    color: #000000;
     font-size: 12px;
     line-height: 1.5;
     border-radius: 4px;
@@ -669,7 +669,7 @@ body {
 }
 
 .message-content::-webkit-scrollbar-thumb {
-    background: #9bbc0f;
+    background: #ffd700;
     border-radius: 2px;
 }
 
@@ -759,7 +759,7 @@ body {
     border-radius: 4px;
     margin-bottom: 15px;
     padding: 8px;
-    color: #9bbc0f;
+    color: #437BBB;
     font-size: 11px;
     text-align: center;
     min-height: 20px;
@@ -791,17 +791,17 @@ body {
 }
 
 .photo-display::-webkit-scrollbar-thumb {
-    background: #9bbc0f;
+    background: #ffd700;
     border-radius: 3px;
 }
 
 .photo-display::-webkit-scrollbar-thumb:hover {
-    background: #a0cc0f;
+    background: #ffd700;
 }
 
 .photo-placeholder {
     text-align: center;
-    color: #9bbc0f;
+    color: #437BBB;
     font-size: 12px;
     margin-top: 50px;
 }
@@ -986,7 +986,7 @@ body {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    color: #9bbc0f;
+    color: #437BBB;
     font-size: 10px;
     opacity: 0.7;
     animation: pulse 2s infinite;
@@ -1018,14 +1018,14 @@ body {
 }
 
 .spotify-logo {
-    color: #1db954;
+    color: #000000;
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .playlist-title {
-    color: #9bbc0f;
+    color: #000000;
     font-size: 14px;
     font-weight: bold;
 }
@@ -1035,7 +1035,7 @@ body {
     border-radius: 12px;
     padding: 10px;
     margin-bottom: 10px;
-    border: 2px solid #9bbc0f;
+    border: 2px solid #000000;
 }
 
 .spotify-embed-container iframe {
@@ -1054,7 +1054,7 @@ body {
 .playlist-btn {
     padding: 6px 12px;
     background: #333;
-    color: #9bbc0f;
+    color: #ffffff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -1062,19 +1062,19 @@ body {
     font-size: 10px;
     font-weight: bold;
     transition: all 0.2s ease;
-    border: 1px solid #9bbc0f;
+    border: 1px solid #0f54bc;
 }
 
 .playlist-btn:hover {
-    background: #9bbc0f;
+    background: #0f54bc;
     color: #333;
     transform: translateY(-1px);
 }
 
 .playlist-btn.active {
-    background: #1db954;
+    background: #1d4eb9;
     color: white;
-    border-color: #1db954;
+    border-color: #0f54bc;
 }
 
 .music-info {
@@ -1083,14 +1083,14 @@ body {
 }
 
 .current-playlist {
-    color: #ffff00;
+    color: #000000;
     font-size: 12px;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .playlist-description {
-    color: #9bbc0f;
+    color: #000000;
     font-size: 10px;
     line-height: 1.4;
 }
@@ -1107,7 +1107,7 @@ body {
 
 .tetris-header {
     background: #1a1a1a;
-    color: #9bbc0f;
+    color: #437BBB;
     padding: 4px 15px; /* Minimal header padding */
     display: flex;
     justify-content: space-between;
@@ -1128,14 +1128,14 @@ body {
 }
 
 .stat {
-    color: #9bbc0f;
+    color: #437BBB;
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
 }
 
 .tetris-game {
-    background: #2d5016;
+    background: #437BBB;
     flex: 1; /* Take most available space */
     display: flex;
     justify-content: center;
@@ -1146,7 +1146,7 @@ body {
 }
 
 #tetris-canvas {
-    border: 2px solid #9bbc0f;
+    border: 2px solid #437BBB;
     border-radius: 4px;
     background: #0f0f0f;
     display: block;
@@ -1167,7 +1167,7 @@ body {
 }
 
 .tetris-btn:hover {
-    background: #ffffff;
+    background: #437BBB;
     transform: translateY(-1px);
 }
 
@@ -1206,7 +1206,7 @@ body {
 }
 
 .modal-content {
-    background: #2d5016;
+    background: #437BBB;
     border: 4px solid #ffff00;
     border-radius: 8px;
     padding: 30px;
@@ -1224,14 +1224,14 @@ body {
 }
 
 .final-message-title {
-    color: #ffff00;
+    color: #000000;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .final-message-text {
-    color: #9bbc0f;
+    color: #000000;
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -1242,7 +1242,7 @@ body {
 }
 
 .love-text {
-    color: #ff69b4;
+    color: #000000;
     font-size: 18px;
     font-weight: bold;
     margin-top: 15px !important;
@@ -1250,7 +1250,7 @@ body {
 
 .modal-btn {
     padding: 12px 24px;
-    background: #4a90e2;
+    background: #000000;
     color: white;
     border: none;
     border-radius: 4px;
@@ -1261,7 +1261,7 @@ body {
 }
 
 .modal-btn:hover {
-    background: #357abd;
+    background: #000000;
 }
 
 /* Responsive Design */
