@@ -223,9 +223,13 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `i know we haven’t known each other that long, but somehow, everything about this feels natural. i’ve been thinking about how different life feels since you came around and honestly, it just feels better. without needing to say much or do anything big, you already bring a sense of calm i didn’t even realize i was missing. you’re soft in the best way, kind without trying, and your presence feels like a warm hug that lingers in the best possible way.
+    const fullMessage = `Happy 21st monthsary, my love. It feels almost unreal to think that we’ve already shared twenty-one months together, yet when I look back, every single moment feels vivid, like pieces of a beautiful painting stitched carefully into my memory. In these months, we’ve built not just a relationship, but a world of our own a place where laughter heals, where even silence feels warm, and where every glance between us says more than words ever could. You’ve taught me that love doesn’t always arrive with fireworks; sometimes it comes softly, in the way your hand fits perfectly in mine, in the way you listen even when I struggle to find the right words, in the way your presence makes my chaos feel calm.
 
-there’s a peace i feel when i talk to you, like time slows down and the world makes a little more sense. even when we’re not talking, you stay with me in my head, in the little moments, and in the way i smile without even noticing. i like you, genuinely. you make my days feel less heavy and my heart a little fuller. it’s like something quietly clicked into place. you really do feel like home to me. i love where we are, and i’d really like to take that a little further. if you feel the same, would you like to be mine?
+These 21 months have been filled with lessons, patience, and growth, but more than anything, they’ve been filled with love the kind of love that changes you, the kind of love that makes the smallest details shine, the kind that makes tomorrow something to look forward to. I cherish the way we’ve celebrated each other’s victories, comforted each other’s wounds, and created memories that feel like treasures I’ll never let go of.
+
+If there’s one thing I’ve learned through this journey, it’s that being with you has made life not just easier, but brighter, deeper, and infinitely more meaningful. I want you to know that my love for you is not measured by dates or milestones, but by the way my heart still races every time I think of you, by the way I still feel butterflies when I see your name appear on my screen, and by the way I can’t imagine any future that doesn’t have you in it.
+
+So here’s to us, my love twenty-one months down, a lifetime to go. I promise to keep choosing you in every sunrise and every storm, to keep building our story with patience and passion, and to love you in ways both tender and wild. Thank you for being my partner, my home, my safest place, and my greatest adventure. With you, I’ve found not just love, but the kind of forever that feels worth every heartbeat.
 `;
     
     // Clear content and start fresh
@@ -261,9 +265,13 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `i know we haven’t known each other that long, but somehow, everything about this feels natural. i’ve been thinking about how different life feels since you came around and honestly, it just feels better. without needing to say much or do anything big, you already bring a sense of calm i didn’t even realize i was missing. you’re soft in the best way, kind without trying, and your presence feels like a warm hug that lingers in the best possible way.
+            const fullMessage = `Happy 21st monthsary, my love. It feels almost unreal to think that we’ve already shared twenty-one months together, yet when I look back, every single moment feels vivid, like pieces of a beautiful painting stitched carefully into my memory. In these months, we’ve built not just a relationship, but a world of our own a place where laughter heals, where even silence feels warm, and where every glance between us says more than words ever could. You’ve taught me that love doesn’t always arrive with fireworks; sometimes it comes softly, in the way your hand fits perfectly in mine, in the way you listen even when I struggle to find the right words, in the way your presence makes my chaos feel calm.
 
-there’s a peace i feel when i talk to you, like time slows down and the world makes a little more sense. even when we’re not talking, you stay with me in my head, in the little moments, and in the way i smile without even noticing. i like you, genuinely. you make my days feel less heavy and my heart a little fuller. it’s like something quietly clicked into place. you really do feel like home to me. i love where we are, and i’d really like to take that a little further. if you feel the same, would you like to be mine?`;
+These 21 months have been filled with lessons, patience, and growth, but more than anything, they’ve been filled with love the kind of love that changes you, the kind of love that makes the smallest details shine, the kind that makes tomorrow something to look forward to. I cherish the way we’ve celebrated each other’s victories, comforted each other’s wounds, and created memories that feel like treasures I’ll never let go of.
+
+If there’s one thing I’ve learned through this journey, it’s that being with you has made life not just easier, but brighter, deeper, and infinitely more meaningful. I want you to know that my love for you is not measured by dates or milestones, but by the way my heart still races every time I think of you, by the way I still feel butterflies when I see your name appear on my screen, and by the way I can’t imagine any future that doesn’t have you in it.
+
+So here’s to us, my love twenty-one months down, a lifetime to go. I promise to keep choosing you in every sunrise and every storm, to keep building our story with patience and passion, and to love you in ways both tender and wild. Thank you for being my partner, my home, my safest place, and my greatest adventure. With you, I’ve found not just love, but the kind of forever that feels worth every heartbeat.`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -319,15 +327,15 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: 'My pretty girl',
+            text: 'A Gallery of Moments With You',
             image: './images/photo1.jpg'
         },
         {
-            text: 'Love in Every Frame',
+            text: 'Where My Heart Found Home',
             image: './images/photo2.jpg'
         },
         {
-            text: 'The Way You Look at Me',
+            text: 'Twenty-One Months, One Endless Love',
             image: './images/photo3.jpg'
         },
         {
@@ -335,19 +343,19 @@ function startPhotoShow() {
             image: './images/photo4.jpg'
         },
         {
-            text: 'In Love, In Light',
+            text: 'Our Story, Still Unfolding',
             image: './images/photo5.jpg'
         },
         {
-            text: 'A Story Called Us',
+            text: 'Forever Starts in the Little Things',
             image: './images/photo6.jpg'
         },
         {
-            text: 'Written in the Stars',
+            text: 'In Every Beat, It’s You',
             image: './images/photo7.jpg'
         },
         {
-            text: 'Until the End of Time',
+            text: 'For All the Tomorrows We Dream',
             image: './images/photo8.jpg'
         }
     ];
@@ -613,19 +621,19 @@ function loadSpotifyPlaylist(playlistNumber) {
             // Ganti dengan playlist pertama kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/0iGaeyl7NfFl1MSnJJUTQD?si=5c95179181bc426f',
             name: 'Love Special Mix',
-            description: 'I saved all the feelings I have for you into songs'
+            description: 'I poured every memory of us into melodies, hoping each note carries the weight of how much you mean to me.'
         },
         2: {
             // Ganti dengan playlist kedua kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
             name: 'Love Songs Collection',
-            description: 'I didn’t choose these songs randomly, I picked them like I noticed you'
+            description: 'This song holds the chapters we’ve lived and the blank pages we’re yet to write together.'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/4dlQ4JHE6abxv38aae2HL1?si=95730613199e4dad',
             name: 'I Love You',
-            description: 'If I can’t say it out loud, maybe these songs can say it for me'
+            description: 'This song is my confession: wherever you are, that’s where my heart belongs.'
         }
     };
     
